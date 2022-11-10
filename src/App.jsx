@@ -173,12 +173,12 @@ const App = () => {
     }
   };
 
-  if (address && (network?.[0].data.chain.id !== ChainId.Rinkeby)) {
+  if (address && (network?.[0].data.chain.id !== ChainId.Goerli)) {
     return (
       <div className="unsupported-network">
-        <h2>Please connect to Rinkeby</h2>
+        <h2>Please connect to Goerli</h2>
         <p>
-          This dapp only works on the Rinkeby network, please switch networks
+          This dapp only works on the Goerli network, please switch networks
           in your connected wallet.
         </p>
       </div>
