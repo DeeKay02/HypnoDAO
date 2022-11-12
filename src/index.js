@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 
 // Import thirdweb provider and Goerli ChainId
-import { ChainId, ThirdwebProvider } from '@thirdweb-dev/react';
+import { ThirdwebProvider } from '@thirdweb-dev/react';
+import { ChainId } from '@thirdweb-dev/sdk';
 
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Goerli;
